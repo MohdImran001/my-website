@@ -10,3 +10,7 @@ body {
 .brand-name {
   font-weight: 600;
 }
+
+.fill-indigo {
+  fill: #60a5fa;
+}

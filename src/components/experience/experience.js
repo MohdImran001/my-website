@@ -14,10 +14,11 @@ import JSLogo from "../../../assets/javascript.svg"
 import NextjsLogo from "../../../assets/nextjs.svg"
 
 import { Heading } from "components/typography"
+import { Section } from "layouts/"
 
 const RecentExperience = () => {
   return (
-    <>
+    <Section>
       <Heading>
         <AcademicCapIcon
           className="block w-8 h-8 md:w-16 md:h-16 mx-auto"
@@ -25,9 +26,9 @@ const RecentExperience = () => {
         />
         Recent Experience
       </Heading>
-      <div className="mt-2 md:mt-16 p-1 md:p-0 space-y-4 md:space-y-0 md:space-x-8 md:flex md:flex-row w-full justify-center">
+      <div className=" mt-2 space-y-4 p-1 md:mt-16 md:p-0 md:space-y-0 md:space-x-8 md:flex md:flex-row w-full md:justify-center">
         {/* CARD */}
-        <div className="md:flex-1 shadow-md rounded-xl bg-white max-w-md divide-y divide-gray-200 h-auto">
+        <div className="mx-auto md:mx-0 md:flex-1 shadow-md rounded-xl bg-white max-w-md divide-y divide-gray-200 h-auto">
           {/* Company Name and Summary */}
           <div className="space-y-4 p-6 md:px-8">
             <h1 className="text-2xl md:text-4xl font-semibold">
@@ -68,12 +69,12 @@ const RecentExperience = () => {
         </div>
 
         {/* Helium Card */}
-        <div className="md:flex-1 shadow-md rounded-xl bg-white max-w-md divide-y divide-gray-200">
+        <div className="mx-auto md:mx-0 md:flex-1 shadow-md rounded-xl bg-white max-w-md divide-y divide-gray-200">
           {/* Company Name and Summary */}
           <div className="space-y-4 p-6 md:px-8">
             <h1 className="text-2xl font-semibold md:text-4xl space-x-4">
               <StaticImage
-                src="../images/helium-logo.png"
+                src="../../images/helium-logo.png"
                 alt="helium"
                 className="w-10 h-10"
               />
@@ -82,7 +83,7 @@ const RecentExperience = () => {
                   href="https://github.com/helium"
                   className="text-decoration-none"
                 >
-                  Helium
+                  Helium{" "}
                   <ExternalLinkIcon
                     className="inline-block w-4 h-4"
                     aria-hidden="true"
@@ -129,7 +130,7 @@ const RecentExperience = () => {
           </div>
         </div>
       </div>
-    </>
+    </Section>
   )
 }
 

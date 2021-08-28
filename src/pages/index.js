@@ -7,15 +7,18 @@ import Seo from "components/seo"
 import About from "components/home/about"
 import Experience from "components/experience/experience"
 import Testimonial from "components/testimonials/testimonial"
+import Features from "components/features/features"
+import Footer from "components/footer"
 
 const IndexPage = () => (
   <Layout>
     <main className="bg-gray-50 text-gray-900">
-      <About />
-      <div className="max-w-7xl mx-auto px-2 mt-10 sm:px-6 lg:px-8 md:mt-20 text-center">
+      <div className="max-w-7xl mx-auto px-2  pb-20 sm:px-6 lg:px-8 text-center">
+        <About />
         <Experience />
         <Testimonial />
-        <div className="mt-20"></div>
+        <Features />
+        <Footer />
       </div>
     </main>
   </Layout>

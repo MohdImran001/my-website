@@ -7,7 +7,6 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline"
 const navigation = [
   { name: "About Me", href: "#", current: false },
   { name: "Projects", href: "#", current: false },
-  { name: "Achievements", href: "#", current: false },
   { name: "Blog", href: "#", current: false },
 ]
 
@@ -17,7 +16,7 @@ function classNames(...classes) {
 
 const Header = ({ siteTitle }) => {
   return (
-    <Disclosure as="nav" className="my-2">
+    <Disclosure as="nav" className="py-2">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -35,7 +34,7 @@ const Header = ({ siteTitle }) => {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className=" flex items-center text-3xl lg:text-4xl text-gray-700  brand-name">
-                  Mohd Imran.
+                  Mohammad Imran.
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -48,7 +47,7 @@ const Header = ({ siteTitle }) => {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-700 hover:bg-indigo-500 hover:text-white",
+                            : "text-gray-700 hover:bg-blue-600 hover:text-white",
                           "px-3 py-2 rounded-md  text-md lg:text-lg font-normal text-center"
                         )}
                         aria-current={item.current ? "page" : undefined}

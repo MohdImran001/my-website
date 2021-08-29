@@ -15,8 +15,9 @@ body {
 .fill-indigo {
   fill: #60a5fa;
 }
-/* 
-.fixed_body {
-  overflow: ;
-  block-size: 100%;
-} */
+
+.wavy-underline {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #34d399;
+}

@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="mx-auto">
+    <div className="mx-auto relative min-h-screen max-w-screen">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       {children}
     </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { MenuIcon, XIcon } from "@heroicons/react/outline"
@@ -16,6 +16,17 @@ function classNames(...classes) {
 const Header = ({ siteTitle }) => {
   const [show, setShow] = useState(false)
 
+  useEffect(() => {}, [])
+
+  const handleClick = () => {
+    if (show) {
+      document.body.style.overflow = "scroll"
+    } else {
+      document.body.style.overflow = "hidden"
+    }
+    setShow(!show)
+  }
+
   return (
     <>
       <nav
@@ -25,7 +36,7 @@ const Header = ({ siteTitle }) => {
         )}
       >
         <div className="flex justify-end">
-          <div onClick={() => setShow(false)}>
+          <div onClick={handleClick}>
             <XIcon className="block h-6 w-6  text-white" aria-hidden="true" />
           </div>
         </div>
@@ -63,7 +74,7 @@ const Header = ({ siteTitle }) => {
               <MenuIcon
                 className="block h-6 w-6"
                 aria-hidden="true"
-                onClick={() => setShow(true)}
+                onClick={handleClick}
               />
             </div>
           </div>

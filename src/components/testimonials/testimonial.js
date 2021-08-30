@@ -1,6 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { NewspaperIcon } from "@heroicons/react/outline"
+import { ExternalLinkIcon } from "@heroicons/react/outline"
 
 import { Heading } from "components/typography"
 import { Section } from "layouts"
@@ -44,7 +45,11 @@ const Testimonial = () => {
           <div>
             <p className="">
               <a href="https://www.linkedin.com/in/danielcolinjames/">
-                Daniel James
+                Daniel James{" "}
+                <ExternalLinkIcon
+                  className="inline-block w-4 h-4 -mt-1"
+                  aria-hidden="true"
+                />
               </a>
             </p>
             <p className="text-sm text-blue-100">

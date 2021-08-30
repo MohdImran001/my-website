@@ -16,8 +16,20 @@ body {
   fill: #60a5fa;
 }
 
-.wavy-underline {
+.wavy-underline-green {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #34d399;
+}
+
+.wavy-underline-purple {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #1d4ed8;
+}
+
+.wavy-underline-yellow {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #fbbf24;
 }

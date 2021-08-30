@@ -10,7 +10,7 @@ export default function About() {
         <div className=" max-w-7xl text-gray-900 transform -rotate-3 rounded-lg p-6 px-4 lg:p-12">
           <div className="">
             <div className="p-4 text-2xl font-bold md:p-8 md:text-5xl lg:text-5xl lg:pt-10">
-              <span className="wavy-underline">Hi, I am Imran.</span>
+              <span className="wavy-underline-green">Hi, I am Imran.</span>
             </div>
             <p className="p-2 lg:p-6 lg:px-24 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
               Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -80,7 +80,9 @@ const Header = ({ siteTitle }) => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className=" flex items-center text-3xl lg:text-4xl text-gray-900  brand-name">
-              <span classname="lowercase">MOHAMMAD IMRAN</span>
+              <span classname="text-lowercase">
+                <a href="/">mohammad imran</a>
+              </span>
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">

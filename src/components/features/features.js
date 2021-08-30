@@ -17,7 +17,7 @@ const Features = () => {
         />
         I Offer
       </Heading>
-      <div className="px-3 md:px-16 lg:px-0  mx-auto max-w-full space-y-6 mt-10 lg:space-y-0 lg:space-x-8 md:mt-16 lg:flex justify-center">
+      <div className="px-0  mx-auto  mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <Card>layouts that work on all devices. big/small</Card>
         <Card>layouts </Card>
         <Card>layouts that work on all devices. big/small</Card>

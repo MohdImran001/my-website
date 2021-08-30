@@ -13,7 +13,7 @@ import Footer from "components/footer"
 const IndexPage = () => (
   <Layout>
     <main className="bg-gray-50 text-gray-900">
-      <div className="max-w-7xl mx-auto  pb-20 sm:px-6 lg:px-8 text-center">
+      <div className="max-w-7xl mx-auto  pb-20 px-4 lg:px-8 text-center">
         <About />
         <Experience />
         <Testimonial />

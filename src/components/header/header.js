@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => {
             </div>
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div className=" flex items-center text-3xl lg:text-4xl text-gray-900  brand-name">
+            <div className=" flex items-center text-2xl md:text-3xl lg:text-4xl text-gray-900  brand-name">
               <span classname="text-lowercase">
                 <a href="/">mohammad imran</a>
               </span>

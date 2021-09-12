@@ -17,6 +17,7 @@ import VercelLogo from "../../../assets/vercel.svg"
 
 import { Heading } from "components/typography"
 import { Section } from "layouts/"
+import ExternalLink from "components/ExternalLink"
 
 const RecentExperience = () => {
   return (
@@ -34,13 +35,9 @@ const RecentExperience = () => {
           {/* Company Name and Summary */}
           <div className="space-y-4 p-6 md:px-8">
             <h1 className="text-2xl md:text-4xl font-semibold">
-              <a href="https://rethinkux.com/" className="text-decoration-none">
+              <ExternalLink to="https://rethinkux.com/">
                 <span className="wavy-underline-green"> RethinkUX </span>
-                <ExternalLinkIcon
-                  className="inline-block w-4 h-4"
-                  aria-hidden="true"
-                />
-              </a>
+              </ExternalLink>
             </h1>
           </div>
           {/* Role */}
@@ -51,7 +48,7 @@ const RecentExperience = () => {
             <div className="justify-center">
               <ul
                 style={{ listStyle: "none" }}
-                className="-space-y-4 my-4 align-center"
+                className="-space-y-2 my-4 align-center text-left"
               >
                 <li>
                   <div className="flex flex-row space-x-2">
@@ -61,7 +58,10 @@ const RecentExperience = () => {
                         aria-hidden="true"
                       />
                     </p>
-                    <p className="text-sm font-medium mt-5">Feature 1</p>
+                    <p className="text-sm font-normal mt-5">
+                      Implemented Authentication, Redux State Management and
+                      React-Navigation in one of the Client's React-Native App.
+                    </p>
                   </div>
                 </li>
                 <li>
@@ -72,7 +72,10 @@ const RecentExperience = () => {
                         aria-hidden="true"
                       />
                     </p>
-                    <p className="text-sm font-medium mt-5">Feature 2</p>
+                    <p className="text-sm font-normal mt-5">
+                      Migrated template generation feature to pikepdf from
+                      pyPDf2 to support files with blank pasword in crove.app
+                    </p>
                   </div>
                 </li>
               </ul>
@@ -105,16 +108,9 @@ const RecentExperience = () => {
                 alt="helium"
                 className="w-10 h-10"
               />
-              <a
-                href="https://github.com/helium"
-                className="text-decoration-none"
-              >
+              <ExternalLink to="https://github.com/helium">
                 <span className="wavy-underline-purple">Helium </span>
-                <ExternalLinkIcon
-                  className="inline-block w-4 h-4"
-                  aria-hidden="true"
-                />
-              </a>
+              </ExternalLink>
             </h1>
           </div>
           {/* Role */}
@@ -122,7 +118,7 @@ const RecentExperience = () => {
             <h1>Open Source Contributor</h1>
             <p className="text-xs">(OCTOBER, 2020 - PRESENT)</p>
             <div className="">
-              <ul style={{ listStyle: "none" }} className="-space-y-4 my-4">
+              <ul style={{ listStyle: "none" }} className="-space-y-2 my-4">
                 <li className="text-left">
                   <div className="flex flex-row space-x-2">
                     <p className="mt-4">
@@ -131,8 +127,14 @@ const RecentExperience = () => {
                         aria-hidden="true"
                       />
                     </p>
-                    <p className="text-sm font-medium mt-5">
-                      Ranked #1 during HELIUM's Open Source Hackathon
+                    <p className="text-sm font-normal mt-5">
+                      Contributed to{" "}
+                      <ExternalLink to="https://explorer.helium.com">
+                        <span className="underline-purple">
+                          explorer.helium.com
+                        </span>
+                      </ExternalLink>{" "}
+                      during Hacktoberfest and Helium's Open Source Hackathon
                     </p>
                   </div>
                 </li>
@@ -144,8 +146,35 @@ const RecentExperience = () => {
                         aria-hidden="true"
                       />
                     </p>
-                    <p className="text-sm font-medium mt-5">
-                      Contributed 327 lines of code
+                    <p className="text-sm font-normal mt-5">
+                      Fixed 11 issues related to design and refactoring of
+                      codebase
+                    </p>
+                  </div>
+                </li>
+                <li className="text-left">
+                  <div className="flex flex-row space-x-2">
+                    <p className="mt-4">
+                      <ArrowNarrowRightIcon
+                        className="inline-block w-4 h-4"
+                        aria-hidden="true"
+                      />
+                    </p>
+                    <p className="text-sm font-normal mt-5">
+                      Contributed more than 300 changes in the codebase
+                    </p>
+                  </div>
+                </li>
+                <li className="text-left">
+                  <div className="flex flex-row space-x-2">
+                    <p className="mt-4">
+                      <ArrowNarrowRightIcon
+                        className="inline-block w-4 h-4"
+                        aria-hidden="true"
+                      />
+                    </p>
+                    <p className="text-sm font-normal mt-5">
+                      Ranked #1 in Helium's Open Source Hackathon.
                     </p>
                   </div>
                 </li>
@@ -174,16 +203,9 @@ const RecentExperience = () => {
           {/* Company Name and Summary */}
           <div className="space-y-4 p-6 md:px-8">
             <h1 className="text-2xl font-semibold md:text-4xl space-x-4">
-              <a
-                href="https://github.com/mohdimran001/lab-report-management-system"
-                className="text-decoration-none"
-              >
+              <ExternalLink href="https://github.com/mohdimran001/lab-report-management-system">
                 <span className="wavy-underline-yellow">Meditrust Labs </span>
-                <ExternalLinkIcon
-                  className="inline-block w-4 h-4"
-                  aria-hidden="true"
-                />
-              </a>
+              </ExternalLink>
             </h1>
           </div>
           {/* Role */}
@@ -191,7 +213,7 @@ const RecentExperience = () => {
             <h1>Freelancer</h1>
             <p className="text-xs">(JANUARY, 2021 - PRESENT)</p>
             <div className="">
-              <ul style={{ listStyle: "none" }} className="-space-y-4 my-4">
+              <ul style={{ listStyle: "none" }} className="-space-y-2 my-4">
                 <li className="text-left">
                   <div className="flex flex-row space-x-2">
                     <p className="mt-4">
@@ -200,9 +222,9 @@ const RecentExperience = () => {
                         aria-hidden="true"
                       />
                     </p>
-                    <p className="text-sm font-medium mt-5">
-                      Developed a Report Management System Web App for a
-                      pathology lab.
+                    <p className="text-sm font-normal mt-5">
+                      Developed a Web App with React.js and Firebase that made
+                      management of lab reports simple.
                     </p>
                   </div>
                 </li>
@@ -214,9 +236,36 @@ const RecentExperience = () => {
                         aria-hidden="true"
                       />
                     </p>
-                    <p className="text-sm font-medium mt-5">
-                      With the help of this project, the lab generates upto 1200
-                      reports per month
+                    <p className="text-sm font-normal mt-5">
+                      Implemented Client Side PDF Generation using pdflib.js
+                    </p>
+                  </div>
+                </li>
+                <li className="text-left">
+                  <div className="flex flex-row space-x-2">
+                    <p className="mt-4">
+                      <ArrowNarrowRightIcon
+                        className="inline-block w-4 h-4"
+                        aria-hidden="true"
+                      />
+                    </p>
+                    <p className="text-sm font-normal mt-5">
+                      Implemented a Cron Job on firebase functions to auto
+                      backup Cloud Firestore data every day.
+                    </p>
+                  </div>
+                </li>
+                <li className="text-left">
+                  <div className="flex flex-row space-x-2">
+                    <p className="mt-4">
+                      <ArrowNarrowRightIcon
+                        className="inline-block w-4 h-4"
+                        aria-hidden="true"
+                      />
+                    </p>
+                    <p className="text-sm font-normal mt-5">
+                      Reduced assets load time for pdf generation upto 40% by
+                      utilizing browser's Cache Storage
                     </p>
                   </div>
                 </li>

@@ -20,7 +20,7 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/mohdimran001/">
                 <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
               </a>
-              <a href="https://www.linkedin.com/in/mohdimran001/">
+              <a href="https://wa.me/919818582518/?text=Hi%20Imran,%20Lets%20do%20a%20project%20together!">
                 <FontAwesomeIcon icon={faWhatsapp} size="2x" />
               </a>
             </p>

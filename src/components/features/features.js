@@ -3,8 +3,13 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import { Heading } from "components/typography"
 import { Section } from "layouts"
-import { SparklesIcon } from "@heroicons/react/solid"
-
+import {
+  ArrowsExpandIcon,
+  CurrencyDollarIcon,
+  FireIcon,
+  SparklesIcon,
+  SupportIcon,
+} from "@heroicons/react/solid"
 import Card from "./card"
 
 const Features = () => {
@@ -18,10 +23,30 @@ const Features = () => {
         I Offer
       </Heading>
       <div className="px-0  mx-auto  mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <Card>layouts that work on all devices. big/small</Card>
-        <Card>layouts </Card>
-        <Card>layouts that work on all devices. big/small</Card>
-        <Card>layouts that work on all devices. big/small</Card>
+        <Card>
+          <div className="w-10 h-10 mx-auto text-red-500">
+            <FireIcon />
+          </div>
+          <p>Blazing fast web and mobile apps to meet your business demands</p>
+        </Card>
+        <Card>
+          <div className="w-10 h-10 mx-auto text-blue-500">
+            <ArrowsExpandIcon />
+          </div>
+          <p>Layouts that work on all devices. big or small</p>
+        </Card>
+        <Card>
+          <div className="w-10 h-10 mx-auto text-green-500">
+            <CurrencyDollarIcon />
+          </div>
+          <p>Affordable Prices that keeps your wallets happy.</p>
+        </Card>
+        <Card>
+          <div className="w-10 h-10 mx-auto text-yellow-500">
+            <SupportIcon />
+          </div>
+          <p>Lifetime support that covers all the things related to project.</p>
+        </Card>
       </div>
     </Section>
   )

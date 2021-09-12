@@ -17,7 +17,7 @@ const Testimonial = () => {
         What people say about me
       </Heading>
       <div className="bg-white shadow max-w-2xl  mt-10 md:mt-16 mx-auto rounded-xl">
-        <div className="p-6 md:p-10 rounded-t-xl bg-white text-md md:text-lg leading-8 md:leading-8 font-medium text-gray-900">
+        <div className="p-6 md:p-10 rounded-t-xl bg-white text-md md:text-lg leading-8 md:leading-8 font-normal text-gray-900">
           <svg
             width="45"
             height="36"

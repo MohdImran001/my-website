@@ -13,12 +13,10 @@ export default function About() {
               <span className="wavy-underline-green">Hi, I am Imran.</span>
             </div>
             <p className=" lg:p-6 lg:px-24 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
-              Nice to meet you. I am a software engineer based in Delhi. I love
-              building softwares that helps people around me. I enjoys figuring
-              out the building blocks of world and rearranging them to build
-              something even better. When I am not working you will find me
-              contributing to Open Source or walking around the streets of
-              Delhi.
+              I am a Computer Science student and an aspiring software engineer.
+              Being a technology enthusiast, I love exploring new technologies
+              and leveraging them to solve real-life problems. I live with my
+              family in Delhi.
             </p>
           </div>
         </div>

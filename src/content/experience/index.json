@@ -1,0 +1,55 @@
+[
+  {
+    "organization": "Crove",
+    "link": "https://crove.app/",
+    "logo": "https://crove.app/wp-content/uploads/2020/12/Crove-Logo-1-1.svg",
+    "role": "Software Engineer Intern",
+    "duration": "AUGUST, 2021 - OCTOBER, 2021",
+    "content": [
+      "Migrated Pdf to template generation feature to AWS Lambda. Reduced template generation time up to 90% by using multithreading in python."
+    ],
+    "tech": ["python", "aws", "awss3", "awslambda"],
+    "themeColor": "#597EF7"
+  },
+  {
+    "organization": "RethinkUX",
+    "link": "https://rethinkux.com/",
+    "logo": "",
+    "role": "React Native Developer Intern",
+    "duration": "JULY, 2021 - AUGUST, 2021",
+    "content": [
+      "Implemented Authentication, Redux State Management and React-Navigation in one of the Client's React-Native App."
+    ],
+    "tech": ["reactjs", "redux", "js", "ts"],
+    "themeColor": "rgb(52, 211, 153)"
+  },
+  {
+    "organization": "Helium",
+    "link": "https://github.com/helium",
+    "logo": "https://avatars.githubusercontent.com/u/6635330?s=200&v=4",
+    "role": "Open Source Contributor",
+    "duration": "OCTOBER, 2020 - PRESENT",
+    "content": [
+      "Contributed to explorer.helium.com during Hacktoberfest and Helium's Open Source Hackathon",
+      "Fixed 11 issues related to design and refactoring of codebase",
+      "Contributed more than 300 changes in the codebase",
+      "Ranked #1 in Helium's Open Source Hackathon."
+    ],
+    "tech": ["reactjs", "ts", "js", "nextjs"],
+    "themeColor": "#1d4ed8"
+  },
+  {
+    "organization": "Meditrust Lab",
+    "link": "https://github.com/MohdImran001/lab-report-management-system",
+    "logo": "",
+    "role": "Freelance",
+    "duration": "JANUARY, 2021 - PRESENT",
+    "content": [
+      "Developed a Web App with React.js and Firebase that made management of lab reports simple.",
+      "Generates PDF's on the client side using pdflib.js",
+      "Reduced assets load time for pdf generation upto 40% by utilizing browser's Cache Storage"
+    ],
+    "tech": ["reactjs", "js", "firebase", "vercel"],
+    "themeColor": "#fbbf24"
+  }
+]

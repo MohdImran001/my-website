@@ -1,6 +1,10 @@
 import * as React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedinIn, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import {
+  faLinkedinIn,
+  faWhatsapp,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons"
 
 import { Section } from "layouts"
 
@@ -22,6 +26,9 @@ const Contact = () => {
               </a>
               <a href="https://wa.me/919818582518/?text=Hi%20Imran,%20Lets%20do%20a%20project%20together!">
                 <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+              </a>
+              <a href="https://github.com/MohdImran001/">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
             </p>
           </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "I work on the Helium team, managing the open-source codebase for the Helium blockchain explorer website. Mohammad has been a really helpful contributor over the past few weeks, submitting fixes for several open issues and not being afraid to dive into complexity. Even over the short period I've been watching him submit pull requests and ask questions on Discord, I've noticed that he is always pushing himself to learn more and take on more challenging issues. I've been really impressed with his work so far and am excited to see his future contributions to open source projects! ",
+    "author": {
+      "name": "Daniel James",
+      "role": "Frontend Software Engineer @ Helium Inc.",
+      "imageUrl": "https://res.cloudinary.com/mohdimran001/image/upload/v1633947761/my-website/daniel_james.jpg",
+      "profileUrl": "https://www.linkedin.com/in/danielcolinjames/"
+    },
+    "themeColor": "from-blue-400 to-indigo-500",
+    "roleTextColor": "text-blue-100",
+    "svgColor": "#60a5fa"
+  },
+  {
+    "text": "I had the privilege of hosting Mohammad on my podcast, Code & Tell. Mohammad is an insatiably passionate developer. So passionate, in fact, that he'll exceed expectations. He's the kind of guy who, if you ask him to pass the salt, would make you a whole bowl of soup instead. When I invited him on the show, I tasked him with answering a technical interview question about Higher-Order Components in React. Not only did he answer the question, but he also live-coded an explanatory application, explaining each development decision as it arose. Mohd is exceedingly curious and, at the time of writing this, is actively looking at pursuing graduate school in the United States. There's no doubt in my mind that he has the smarts, the discipline, and the willpower to achieve his goals.",
+    "author": {
+      "name": "Kasey Wahl",
+      "role": "Fullstack Developer @ TEKsystems",
+      "imageUrl": "https://res.cloudinary.com/mohdimran001/image/upload/v1633947826/my-website/kasey_wahl.jpg",
+      "profileUrl": "https://www.linkedin.com/in/kasey-wahl/"
+    },
+    "themeColor": null,
+    "roleTextColor": null,
+    "svgColor": "#34D399"
+  }
+]

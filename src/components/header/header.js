@@ -4,9 +4,13 @@ import { Link } from "gatsby"
 import { MenuIcon, XIcon } from "@heroicons/react/outline"
 
 const navigation = [
-  { name: "About Me", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Blog", href: "#", current: false },
+  { name: "About Me", href: "/about", current: false },
+  { name: "Projects", href: "/projects", current: false },
+  {
+    name: "Blog",
+    href: "https://mohammad-imran.hashnode.dev/",
+    current: false,
+  },
 ]
 
 function classNames(...classes) {

@@ -6,7 +6,7 @@ import Layout from "layouts/layout"
 import Seo from "components/seo"
 import About from "components/home/about"
 import Experience from "components/home/experience"
-import Testimonial from "components/testimonials/testimonial"
+import Testimonial from "components/home/testimonials"
 import Features from "components/features/features"
 import Footer from "components/footer"
 

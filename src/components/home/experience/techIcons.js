@@ -71,7 +71,7 @@ const icon = name => {
   }
   if (name === "awslambda") {
     return (
-      <div className="w-10 h-10 ml-2">
+      <div className="w-10 h-10  mt-2">
         <LambdaLogo width="35" height="35" />
       </div>
     )
@@ -92,9 +92,13 @@ const icon = name => {
   }
 }
 
-const TechIcons = ({ icons }) => {
+const TechIcons = ({ icons, org }) => {
   return (
-    <div className="flex flex-row mt-6 space-x-8  justify-center -ml-10">
+    <div
+      className={`flex flex-row mt-6 space-x-8  justify-center ${
+        org === "Helium" || org === "Meditrust Lab" ? "-ml-16" : ""
+      }`}
+    >
       {icons.map((name, index) => icon(name))}
     </div>
   )

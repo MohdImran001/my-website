@@ -22,7 +22,7 @@ const AboutPage = () => (
           <div className="max-w-7xl  rounded-lg text-white transform rotate-3">
             <div className=" max-w-7xl text-gray-900 transform -rotate-3 rounded-lg p-6 px-2 lg:p-12 lg:pb-4">
               <div className="">
-                <div className="p-4 text-2xl font-bold md:p-8 md:text-5xl lg:text-5xl lg:pt-10">
+                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:pl-0 md:text-5xl lg:text-5xl lg:pt-10">
                   <span
                     style={{
                       textDecorationLine: "underline",
@@ -48,7 +48,7 @@ const AboutPage = () => (
               </div>
               {/* Connect */}
               <div className="mt-32">
-                <div className="p-4 text-2xl font-bold md:p-8 md:text-5xl lg:text-5xl lg:pt-10">
+                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:pl-0 md:text-5xl lg:text-5xl lg:pt-10">
                   <span
                     style={{
                       textDecorationLine: "underline",
@@ -88,7 +88,7 @@ const AboutPage = () => (
               </div>
               {/* Tools */}
               <div className="mt-32">
-                <div className="p-4 text-2xl font-bold md:p-8 md:text-5xl lg:text-5xl lg:pt-10">
+                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:pl-0 md:text-5xl lg:text-5xl lg:pt-10">
                   <span
                     style={{
                       textDecorationLine: "underline",
@@ -138,7 +138,7 @@ const AboutPage = () => (
                 </p>
               </div>
               <div className="mt-32">
-                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:text-5xl lg:text-5xl lg:pt-10 lg:pl-4">
+                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:pl-0 md:text-5xl lg:text-5xl lg:pt-10 lg:pl-4">
                   <span
                     style={{
                       textDecorationLine: "underline",
@@ -149,10 +149,10 @@ const AboutPage = () => (
                     Reading List
                   </span>
                 </div>
-                <p className="p-4 text-sm md:text-lg font-medium leading-loose lg:leading-9 md:tracking-wider">
+                <p className="pl-0 md:pl-4 p-4 text-sm md:text-lg font-medium leading-loose lg:leading-9 md:tracking-wider">
                   <a href="https://sre.google/sre-book/table-of-contents/">
                     <img
-                      className="shadow-xl rounded-md"
+                      className="shadow-xl rounded-md w-64 md:w-1/2"
                       src="https://lh3.googleusercontent.com/JvM0JKKuZNJMWAC5iZPm4j-mdS9ORpZbpEWzg0zmJ0i2_xgIcju0OLXJ-zmnvz_GtFFGHe9qZ9Dz-6W0u5fRLFQaRlOI_hGzbetw"
                     />
                   </a>

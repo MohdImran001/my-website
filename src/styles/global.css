@@ -11,3 +11,7 @@ body {
 .brand-name {
   font-weight: 600;
 }
+
+.text-black {
+  color: rgb(75, 75, 75);
+}

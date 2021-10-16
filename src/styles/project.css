@@ -1,0 +1,16 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.para {
+}
+
+.para,
+ul {
+  font-size: 1.1rem;
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+}

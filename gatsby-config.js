@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Mohd Imran`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `My Official Website`,
     author: `Mohammad Imran`,
-    siteUrl: `https://mohdimran001.github.io/`,
+    siteUrl: `https://mohdimran.vercel.app`,
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -35,6 +36,30 @@ module.exports = {
         rule: {
           include: /assets/, // See below to configure properly
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=1]": "title",
+                "heading[depth=2]": "subtitle",
+                paragraph: "para",
+              },
+            },
+          },
+        ],
       },
     },
     `gatsby-plugin-gatsby-cloud`,

@@ -34,15 +34,38 @@ const AboutPage = () => (
                   </span>
                 </div>
                 <p className=" lg:p-6 lg:px-24 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
-                  I am a student, software engineer, and an aspiring product
-                  manager. I love building softwares that helps people around
-                  me. I have experience in developing web apps that are fast,
-                  reliable and can be scaled to hundreds of users. I mostly use
-                  React.js and Node.js but in the past few months I have worked
-                  on projects with AWS, AWS Lambda, Python, Firebase, Next.js,
-                  C++ and many more. If you want to learn more about my
-                  experience, visit my blog. Here, I regularly share my
-                  knowledge in the form of articles.
+                  I have carried a passion for technology and software
+                  development since a particularly young age. I was always
+                  curious to learn about how computers work and this curiosity
+                  has led to my dive into the software world.
+                  {/* I tend to be */}
+                  {/* team-oriented and reliable. <br />
+                  <br />I am also proud of my ability to persevere and overcome
+                  any challenges as they come up. For example, recently in my
+                  internship, I was assigned the task to develop an AWS Lambda
+                  function that will upload 100 images to AWS S3 using
+                  multithreading. I was completely new to AWS Lambda and Python,
+                  and I could not find a well-explained solution for this. Thus,
+                  I divided the problem into smaller tasks and started
+                  implementing it step by step. My C++ knowledge helped me
+                  because on AWS Lambda one has to precompile the libraries that
+                  we need. After five days of dedication and hard work, I
+                  successfully deployed the lambda function. */}
+                  <br /> <br />
+                  Although I am studying Computer Science at university, I have
+                  garnered most of my knowledge from the internet. Indeed, free
+                  educational material on the internet has helped me
+                  significantly during my learning experience. That is why I
+                  have started writing articles to share my experience and
+                  knowledge with others with a motive to make someone's day. It
+                  also helps me to perfect my knowledge in the ever-growing
+                  field of Computer Science.
+                  <br />
+                  <br />I am highly inspired by my father. He manages our family
+                  business, and because of him I have had a lot of exposure to
+                  the business environment. I am highly interested in learning
+                  more about the business side of tech, that is why I am
+                  planning to do my master’s in Business Administration
                   {/* I am currently preparing for GMAT */}
                 </p>
               </div>

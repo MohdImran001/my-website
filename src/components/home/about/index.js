@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import { Section } from "layouts"
 import { Heading } from "components/typography/"
 
@@ -22,9 +22,14 @@ export default function About() {
             </div>
             <p className=" lg:p-6 lg:px-24 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
               I am a Computer Science student and an aspiring software engineer.
-              Being a technology enthusiast, I love exploring new technologies
-              and leveraging them to solve real-life problems. I live with my
-              family in Delhi.
+              I am extremely good at one thing, and thats leveraging technology
+              to solve real-life problems. I build apps that are fast and
+              reliable. I mostly use javascript but in the past few months I
+              have worked on projects using Amazon Web Services (AWS), AWS
+              Lambda, Python, Firebase and many more. <br />
+              <Link to="/about" className="text-green-500 underline">
+                read more...
+              </Link>
             </p>
           </div>
         </div>

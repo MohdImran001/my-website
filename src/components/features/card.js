@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Card = ({ children }) => {
   return (
-    <div className="bg-white shadow text-sm font-normal lg:text-md rounded-xl px-6  py-10 text-center space-y-4">
+    <div className="bg-white shadow text-md font-normal lg:text-lg rounded-xl p-12 md:p-20 text-center space-y-16">
       {children}
     </div>
   )

@@ -12,6 +12,11 @@ import {
 } from "@heroicons/react/solid"
 import Card from "./card"
 
+import RocketLogo from "../../../assets/rocket.svg"
+import DesignLogo from "../../../assets/design.svg"
+import MilestonesLogo from "../../../assets/milestones.svg"
+import SupportLogo from "../../../assets/support.svg"
+
 const Features = () => {
   return (
     <Section>
@@ -20,32 +25,29 @@ const Features = () => {
           className="block w-8 h-8 md:w-12 md:h-10 mx-auto mb-4"
           aria-hidden="true"
         />
-        I Offer
+        Benefits of working with me
       </Heading>
-      <div className="px-0  mx-auto  mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="px-0  mx-auto  mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2  gap-8 text-md">
         <Card>
-          <div className="w-10 h-10 mx-auto text-red-500">
-            <FireIcon />
-          </div>
+          <RocketLogo width="300" height="200" style={{ margin: "0 auto" }} />
           <p>Blazing fast web and mobile apps to meet your business demands</p>
         </Card>
         <Card>
-          <div className="w-10 h-10 mx-auto text-blue-500">
-            <ArrowsExpandIcon />
-          </div>
+          <DesignLogo width="300" height="200" style={{ margin: "0 auto" }} />
           <p>Layouts that work on all devices. big or small</p>
         </Card>
         <Card>
-          <div className="w-10 h-10 mx-auto text-green-500">
-            <CurrencyDollarIcon />
-          </div>
+          <MilestonesLogo
+            width="300"
+            height="200"
+            style={{ margin: "0 auto" }}
+          />
+
           <p>Affordable Prices that keeps your wallets happy.</p>
         </Card>
         <Card>
-          <div className="w-10 h-10 mx-auto text-yellow-500">
-            <SupportIcon />
-          </div>
-          <p>Lifetime support that covers all the things related to project.</p>
+          <SupportLogo width="300" height="200" style={{ margin: "0 auto" }} />
+          <p>fetime support that covers all the things related to project.Li</p>
         </Card>
       </div>
     </Section>

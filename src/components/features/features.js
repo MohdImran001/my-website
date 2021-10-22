@@ -29,25 +29,37 @@ const Features = () => {
       </Heading>
       <div className="px-0  mx-auto  mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2  gap-8 text-md">
         <Card>
-          <RocketLogo width="300" height="200" style={{ margin: "0 auto" }} />
-          <p>Blazing fast web and mobile apps to meet your business demands</p>
+          <RocketLogo width="300" height="200" className="mx-0 md:mx-auto" />
+          <p>
+            I write easy to read and maintainable code. Your project will be
+            crafted using best practices of the industry
+          </p>
         </Card>
         <Card>
-          <DesignLogo width="300" height="200" style={{ margin: "0 auto" }} />
-          <p>Layouts that work on all devices. big or small</p>
+          <DesignLogo width="300" height="200" className="mx-0 md:mx-auto" />
+          <p>
+            Pixel perfect design that works on every device. (from smartphones
+            to desktops and everything in between)
+          </p>
         </Card>
         <Card>
           <MilestonesLogo
             width="300"
             height="200"
-            style={{ margin: "0 auto" }}
+            className="mx-0 md:mx-auto"
           />
-
-          <p>Affordable Prices that keeps your wallets happy.</p>
+          <p>
+            Don't pay in advance! Pay in small amounts after completion of each
+            milestone.
+          </p>
         </Card>
         <Card>
-          <SupportLogo width="300" height="200" style={{ margin: "0 auto" }} />
-          <p>fetime support that covers all the things related to project.Li</p>
+          <SupportLogo width="300" height="200" className="mx-0 md:mx-auto" />
+          <p>
+            {" "}
+            Facing an issue? Don't worry, I've got your back. I offer free
+            support for all your technical issues.{" "}
+          </p>
         </Card>
       </div>
     </Section>

@@ -17,7 +17,7 @@ const RecentExperience = () => {
         />
         Recent Experience
       </Heading>
-      <div className="mx-auto mt-2 p-1  md:mt-16 md:p-0  max-w-5xl grid grid-cols-1  md:grid-cols-2 gap-6">
+      <div className="mx-auto mt-2 p-1  md:mt-16 md:p-0  grid grid-cols-1  md:grid-cols-2 gap-8">
         {ExperienceData.map((experience, index) => {
           return <Card experience={experience} key={index} />
         })}

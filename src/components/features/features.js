@@ -1,15 +1,8 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
 import { Heading } from "components/typography"
 import { Section } from "layouts"
-import {
-  ArrowsExpandIcon,
-  CurrencyDollarIcon,
-  FireIcon,
-  SparklesIcon,
-  SupportIcon,
-} from "@heroicons/react/solid"
+import { SparklesIcon } from "@heroicons/react/solid"
 import Card from "./card"
 
 import RocketLogo from "../../../assets/rocket.svg"
@@ -67,9 +60,3 @@ const Features = () => {
 }
 
 export default Features
-// 1. Layouts
-// 2. Pixel Perfect Code.
-// 3. World Class Web and Mobile Apps
-// 4. Rich User Experiences
-
-// Fill each section with your experience

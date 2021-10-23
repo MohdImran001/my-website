@@ -5,7 +5,7 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/outline"
 const Content = ({ content }) => {
   return (
     <div className="">
-      <ul style={{ listStyle: "none" }} className="-space-y-2 my-4">
+      <ul style={{ listStyle: "none" }} className="mb-6 px-10 md:px-12">
         {content.map((item, index) => {
           return (
             <li className="text-left" key={index}>
@@ -16,7 +16,7 @@ const Content = ({ content }) => {
                     aria-hidden="true"
                   />
                 </p>
-                <p className="text-sm font-normal mt-5">{item}</p>
+                <p className="!text-md font-normal mt-5">{item}</p>
               </div>
             </li>
           )

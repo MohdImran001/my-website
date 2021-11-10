@@ -40,7 +40,7 @@ const Card = ({
         </h1>
       </div>
       {/* Role */}
-      <div className="w-full py-6 space-y-12">
+      <div className="w-full py-6">
         <div>
           <h1 className="text-md md:text-lg font-medium">{role}</h1>
           <p className="text-xs md:text-sm">{duration}</p>

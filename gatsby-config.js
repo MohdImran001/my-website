@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://mohdimran.vercel.app`,
   },
   plugins: [
-    `gatsby-plugin-catch-links`,
+    // `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

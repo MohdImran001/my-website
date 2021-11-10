@@ -13,6 +13,7 @@ import { faCode, faTerminal } from "@fortawesome/free-solid-svg-icons"
 import Layout from "layouts/layout"
 import Seo from "components/seo"
 import About from "components/home/about"
+import Copyright from "components/footer/copyright"
 
 const AboutPage = () => (
   <Layout>
@@ -33,7 +34,7 @@ const AboutPage = () => (
                     Hi, I am Imran.
                   </span>
                 </div>
-                <p className=" lg:p-6 lg:px-24 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
+                <p className=" lg:py-6 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
                   I have carried a passion for technology and software
                   development since a particularly young age. I was always
                   curious to learn about how computers work and this curiosity
@@ -79,10 +80,10 @@ const AboutPage = () => (
                       textDecorationColor: "#34D399",
                     }}
                   >
-                    Connect
+                    Get in touch
                   </span>
                 </div>
-                <p className=" lg:p-6 lg:px-20 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
+                <p className=" lg:py-6 text-sm md:text-lg  font-medium leading-loose lg:leading-9 md:tracking-wider">
                   If you would like to hire me or give me feedback of any kind,
                   I'll be delighted to hear from you.
                   <br />
@@ -109,81 +110,10 @@ const AboutPage = () => (
                   </p>
                 </p>
               </div>
-              {/* Tools */}
-              <div className="mt-32">
-                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:pl-0 md:text-5xl lg:text-5xl lg:pt-10">
-                  <span
-                    style={{
-                      textDecorationLine: "underline",
-                      textDecorationStyle: "wavy",
-                      textDecorationColor: "#34D399",
-                    }}
-                  >
-                    Coding
-                  </span>
-                </div>
-                <p className=" lg:p-6 lg:px-24 text-sm md:text-lg font-medium leading-loose lg:leading-9 md:tracking-wider">
-                  I use the following softwares to improve productivity.
-                  {/* GitLens, TabNine, Moon theme, vs code, fish, ubuntu,  */}
-                  <div className="mt-5 space-x-4">
-                    <FontAwesomeIcon icon={faCode} size="1x" /> <b>Editor - </b>
-                    VS Code with
-                    <a
-                      href="https://taniarascia.github.io/new-moon/"
-                      style={{
-                        textDecorationLine: "underline",
-                        textDecorationStyle: "wavy",
-                        textDecorationColor: "#EC4899",
-                      }}
-                    >
-                      New Moon Theme
-                    </a>
-                  </div>
-                  <div className="mt-5 space-x-4">
-                    <FontAwesomeIcon icon={faTerminal} size="1x" />
-                    <b>Terminal - </b>
-                    <a
-                      href="https://fishshell.com/"
-                      style={{
-                        textDecorationLine: "underline",
-                        textDecorationStyle: "wavy",
-                        textDecorationColor: "#EC4899",
-                      }}
-                    >
-                      Fish
-                    </a>
-                  </div>
-                  <div className="mt-5 space-x-4">
-                    <FontAwesomeIcon icon={faTerminal} size="1x" />
-                    <b>Operating System - </b>
-                    <FontAwesomeIcon icon={faUbuntu} size="1x" /> Ubuntu
-                  </div>
-                </p>
-              </div>
-              <div className="mt-32">
-                <div className="pl-0 p-4 text-2xl font-bold md:p-8 md:pl-0 md:text-5xl lg:text-5xl lg:pt-10 lg:pl-4">
-                  <span
-                    style={{
-                      textDecorationLine: "underline",
-                      textDecorationStyle: "wavy",
-                      textDecorationColor: "#34D399",
-                    }}
-                  >
-                    Reading List
-                  </span>
-                </div>
-                <p className="pl-0 md:pl-4 p-4 text-sm md:text-lg font-medium leading-loose lg:leading-9 md:tracking-wider">
-                  <a href="https://sre.google/sre-book/table-of-contents/">
-                    <img
-                      className="shadow-xl rounded-md w-64 md:w-1/2"
-                      src="https://lh3.googleusercontent.com/JvM0JKKuZNJMWAC5iZPm4j-mdS9ORpZbpEWzg0zmJ0i2_xgIcju0OLXJ-zmnvz_GtFFGHe9qZ9Dz-6W0u5fRLFQaRlOI_hGzbetw"
-                    />
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
         </div>
+        <Copyright />
       </div>
     </main>
   </Layout>

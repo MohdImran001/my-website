@@ -24,9 +24,9 @@ export default function About() {
               I am a Computer Science student and an aspiring software engineer.
               I am extremely good at one thing, and thats leveraging technology
               to solve real-life problems. I build apps that are fast and
-              reliable. I mostly use javascript but in the past few months I
-              have worked on projects using Amazon Web Services (AWS), AWS
-              Lambda, Python, Firebase and many more. <br />
+              reliable. In the past six months I have worked on projects using
+              Amazon Web Services (AWS), AWS Lambda, Python, React-Native,
+              Firebase, React.js, Node.js, C++ and many more. <br />
               <Link to="/about" className="text-green-500 underline">
                 read more...
               </Link>

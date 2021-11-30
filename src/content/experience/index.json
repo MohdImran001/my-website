@@ -6,7 +6,8 @@
     "role": "Software Engineer Intern",
     "duration": "AUGUST, 2021 - OCTOBER, 2021",
     "content": [
-      "Migrated Pdf to template generation feature to AWS Lambda. Reduced template generation time up to 90% by using multithreading in python."
+      "Migrated PDF to Template Generation feature to AWS Lambda; Reduced template generation time by more than 50% using multithreading in python.",
+      "Written Unit tests for Crove Editor using Cypress."
     ],
     "tech": ["python", "aws", "awss3", "awslambda"],
     "themeColor": "#597EF7"
@@ -31,8 +32,8 @@
     "duration": "OCTOBER, 2020 - PRESENT",
     "content": [
       "Contributed to explorer.helium.com during Hacktoberfest and Helium's Open Source Hackathon",
-      "Fixed 11 issues related to design and refactoring of codebase",
-      "Contributed more than 300 changes in the codebase",
+      "Fixed 11 issues related to the user interface of the app",
+      "Contributed more than 300 lines of code",
       "Ranked #1 in Helium's Open Source Hackathon."
     ],
     "tech": ["reactjs", "ts", "js", "nextjs"],
@@ -45,9 +46,9 @@
     "role": "Freelance",
     "duration": "JANUARY, 2021 - PRESENT",
     "content": [
-      "Developed a Web App with React.js and Firebase that made management of lab reports simple.",
-      "Generates PDF's on the client side using pdflib.js",
-      "Reduced assets load time for pdf generation upto 40% by utilizing browser's Cache Storage"
+      "Developed a Reports management app with React.js and Firebase for a pathology lab in Delhi, India.",
+      "The project has helped the lab in generating more than 3000 reports in the last six months.",
+      "Generates PDF on client-side only; Reduced pdf generation time up to 40% by utilizing browser's Cache Storage."
     ],
     "tech": ["reactjs", "js", "firebase", "vercel"],
     "themeColor": "#fbbf24"

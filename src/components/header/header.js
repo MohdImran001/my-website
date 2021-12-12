@@ -8,7 +8,7 @@ const navigation = [
   { name: "Projects", href: "/projects", current: false },
   {
     name: "Blog",
-    href: "https://mohammad-imran.hashnode.dev/",
+    href: "https://mohammad-imran.medium.com/",
     current: false,
   },
 ]
